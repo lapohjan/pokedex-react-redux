@@ -20,7 +20,7 @@ class App extends React.Component {
         return (
             <div className="App">
                 <Router>
-                    <NavigationBar></NavigationBar>
+                    <NavigationBar/>
                     <div className="container">
                         <Switch>
                             <Route
@@ -35,7 +35,7 @@ class App extends React.Component {
                                             width={100}
                                         />
                                     ) : (
-                                        <ListPage></ListPage>
+                                        <ListPage/>
                                     )
                                 }
                             ></Route>
